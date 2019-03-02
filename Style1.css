@@ -1,0 +1,75 @@
+
+.container{
+  max-width:1170px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:1em;
+}
+
+body{
+  background:#92bde7;
+  color:#485e74;
+  line-height:1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:1em;
+}
+
+.brand{
+  text-align: center;
+}
+
+.brand span{
+  color:#fff;
+}
+
+*{
+  box-sizing: border-box;
+}
+.wrapper{
+  box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+  background:#c9e6ff;
+  display: flex;
+  justify-content: flex-start;
+  height: 50%;
+  width: 80vw;
+  height: 80vw;
+}
+.wrapper > *{
+  padding: 1em;
+}
+.contact{
+  background:#f9feff;
+}
+.contact form button{
+  background:#c9e6ff;
+  border:0;
+  text-transform: uppercase;
+}
+.info h3, .info ul, .brand{
+  text-align: center;
+  margin:0 0 1rem 0;
+  list-style: none;
+}
+.contact form button, .contact form input, .contact form textarea{
+  width:100%;
+  padding:1em;
+  border:1px solid #c9e6ff;
+}
+.info img{
+  height:auto;
+  width: 100%;
+}
+.info{
+ 
+  width: 100%
+
+}
+.contact{
+  width:100%;
+  padding:1em;
+  border:1px solid #c9e6ff;
+
+}
+.info h3, .info ul, .brand{
+  text-align: left;
+}
